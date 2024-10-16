@@ -47,7 +47,7 @@ class LaserPlotter(Node):
 
         # Matriz de ocupação (resolução de 0.1m)
         self.map_resolution = 0.1  # Cada célula representa 0.1m
-        self.map_size = 2000  # Para representar um mapa de 200x200 metros (20,000 células)
+        self.map_size = 2000  # Para representar um mapa de 200x200 metros (20 células)
         self.occupancy_grid = np.zeros((self.map_size, self.map_size), dtype=bool)  # Inicialmente tudo livre
 
     def odom_callback(self, msg):
@@ -56,6 +56,8 @@ class LaserPlotter(Node):
         self.robot_y = msg.pose.pose.position.y
         orientation_q = msg.pose.pose.orientation
         orientation_list = [orientation_q.x, orientation_q.y, orientation_q.z, orientation_q.w]
+
+        #Usando apenas o yaw já que é a orientação paralela ao plano que o robô está
         _, _, self.robot_yaw = euler_from_quaternion(orientation_list)
 
     def lidar_callback(self, msg):
@@ -76,11 +78,6 @@ class LaserPlotter(Node):
         self.ax_lidar.set_ylim([-15, 15])
         self.ax_lidar.grid(True)
 
-        # # Aplicar filtro de limite de -10 a 10 nas coordenadas locais
-        # valid_indices = (ox >= -10) & (ox <= 10) & (oy >= -10) & (oy <= 10)
-        # ox = ox[valid_indices]
-        # oy = oy[valid_indices]
-
         # Plotar as linhas do centro até os pontos do LIDAR
         for x, y in zip(ox, oy):
             self.ax_lidar.plot([0, y], [0, x], "b-", linewidth=0.2)
@@ -92,7 +89,8 @@ class LaserPlotter(Node):
         global_ox = self.robot_x + ox * np.cos(self.robot_yaw) - oy * np.sin(self.robot_yaw)
         global_oy = self.robot_y + ox * np.sin(self.robot_yaw) + oy * np.cos(self.robot_yaw)
 
-        # Aplicar filtro de limite de -10 a 10 nas coordenadas globais
+        # Aplicar filtro de limite de -10 a 10 nas coordenadas globais -> Para remover as incertezas do laser
+        # Aqui é necessário aplicar para o ambiente de onde está o robô, ou remover e plotar os ruidos mesmo assim
         valid_global_indices = (global_ox >= -10) & (global_ox <= 10) & (global_oy >= -10) & (global_oy <= 10)
         global_ox = global_ox[valid_global_indices]
         global_oy = global_oy[valid_global_indices]
