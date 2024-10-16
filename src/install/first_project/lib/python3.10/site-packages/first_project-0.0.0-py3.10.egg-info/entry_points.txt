@@ -1,0 +1,3 @@
+[console_scripts]
+first_project = first_project.first_project:main
+

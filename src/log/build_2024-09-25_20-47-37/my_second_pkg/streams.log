@@ -1,0 +1,39 @@
+[4.140s] Invoking command in '/home/robot/ws_aprendendo_ros2/src/my_second_pkg': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_second_pkg build --build-base /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build install --record /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/install.log --single-version-externally-managed
+[5.776s] running egg_info
+[5.777s] creating ../build/my_second_pkg/my_second_pkg.egg-info
+[5.778s] writing ../build/my_second_pkg/my_second_pkg.egg-info/PKG-INFO
+[5.779s] writing dependency_links to ../build/my_second_pkg/my_second_pkg.egg-info/dependency_links.txt
+[5.779s] writing entry points to ../build/my_second_pkg/my_second_pkg.egg-info/entry_points.txt
+[5.780s] writing requirements to ../build/my_second_pkg/my_second_pkg.egg-info/requires.txt
+[5.781s] writing top-level names to ../build/my_second_pkg/my_second_pkg.egg-info/top_level.txt
+[5.782s] writing manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+[5.793s] reading manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+[5.793s] writing manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+[5.797s] running build
+[5.797s] running build_py
+[5.797s] creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build
+[5.797s] creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib
+[5.804s] creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+[5.804s] copying my_second_pkg/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+[5.805s] copying my_second_pkg/my_second_node.py -> /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+[5.807s] running install
+[5.808s] running install_lib
+[5.813s] creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+[5.816s] copying /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+[5.817s] copying /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg/my_second_node.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+[5.821s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg/__init__.py to __init__.cpython-310.pyc
+[5.825s] byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg/my_second_node.py to my_second_node.cpython-310.pyc
+[5.829s] running install_data
+[5.830s] creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index
+[5.830s] creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index
+[5.830s] creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index/packages
+[5.831s] copying resource/my_second_pkg -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index/packages
+[5.834s] copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg
+[5.834s] creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg/launch
+[5.835s] copying launch/start.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg/launch
+[5.839s] running install_egg_info
+[5.850s] Copying ../build/my_second_pkg/my_second_pkg.egg-info to /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg-0.0.0-py3.10.egg-info
+[5.863s] running install_scripts
+[5.995s] Installing second_node script to /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/my_second_pkg
+[6.004s] writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/install.log'
+[6.201s] Invoked command in '/home/robot/ws_aprendendo_ros2/src/my_second_pkg' returned '0': PYTHONPATH=/home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/prefix_override:/home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_second_pkg build --build-base /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build install --record /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/install.log --single-version-externally-managed

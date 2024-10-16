@@ -1,0 +1,3 @@
+[console_scripts]
+second_node = my_second_pkg.my_second_node:main
+

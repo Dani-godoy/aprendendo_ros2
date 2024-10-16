@@ -1,0 +1,5 @@
+[console_scripts]
+first_project = my_first_pkg.first_project:main
+node = my_first_pkg.my_first_node:main
+r2d2 = my_first_pkg.r2d2:main
+

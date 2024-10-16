@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/first_project/first_project.egg-info
+writing ../build/first_project/first_project.egg-info/PKG-INFO
+writing dependency_links to ../build/first_project/first_project.egg-info/dependency_links.txt
+writing entry points to ../build/first_project/first_project.egg-info/entry_points.txt
+writing requirements to ../build/first_project/first_project.egg-info/requires.txt
+writing top-level names to ../build/first_project/first_project.egg-info/top_level.txt
+writing manifest file '../build/first_project/first_project.egg-info/SOURCES.txt'
+reading manifest file '../build/first_project/first_project.egg-info/SOURCES.txt'
+writing manifest file '../build/first_project/first_project.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ws_aprendendo_ros2/src/build/first_project/build
+creating /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib
+creating /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib/first_project
+copying first_project/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib/first_project
+copying first_project/first_project.py -> /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib/first_project
+running install
+running install_lib
+creating /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project
+copying /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib/first_project/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project
+copying /home/robot/ws_aprendendo_ros2/src/build/first_project/build/lib/first_project/first_project.py -> /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project/first_project.py to first_project.cpython-310.pyc
+running install_data
+creating /home/robot/ws_aprendendo_ros2/src/install/first_project/share/ament_index
+creating /home/robot/ws_aprendendo_ros2/src/install/first_project/share/ament_index/resource_index
+creating /home/robot/ws_aprendendo_ros2/src/install/first_project/share/ament_index/resource_index/packages
+copying resource/first_project -> /home/robot/ws_aprendendo_ros2/src/install/first_project/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/first_project/share/first_project
+running install_egg_info
+Copying ../build/first_project/first_project.egg-info to /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/python3.10/site-packages/first_project-0.0.0-py3.10.egg-info
+running install_scripts
+Installing first_project script to /home/robot/ws_aprendendo_ros2/src/install/first_project/lib/first_project
+writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/first_project/install.log'

@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/my_second_pkg/my_second_pkg.egg-info
+writing ../build/my_second_pkg/my_second_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/my_second_pkg/my_second_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/my_second_pkg/my_second_pkg.egg-info/entry_points.txt
+writing requirements to ../build/my_second_pkg/my_second_pkg.egg-info/requires.txt
+writing top-level names to ../build/my_second_pkg/my_second_pkg.egg-info/top_level.txt
+writing manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/my_second_pkg/my_second_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build
+creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib
+creating /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+copying my_second_pkg/__init__.py -> /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+copying my_second_pkg/my_second_node.py -> /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg
+running install
+running install_lib
+creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+copying /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg/__init__.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+copying /home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/build/lib/my_second_pkg/my_second_node.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg/my_second_node.py to my_second_node.cpython-310.pyc
+running install_data
+creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index
+creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index
+creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index/packages
+copying resource/my_second_pkg -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg
+creating /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg/launch
+copying launch/start.py -> /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/share/my_second_pkg/launch
+running install_egg_info
+Copying ../build/my_second_pkg/my_second_pkg.egg-info to /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/python3.10/site-packages/my_second_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing second_node script to /home/robot/ws_aprendendo_ros2/src/install/my_second_pkg/lib/my_second_pkg
+writing list of installed files to '/home/robot/ws_aprendendo_ros2/src/build/my_second_pkg/install.log'
